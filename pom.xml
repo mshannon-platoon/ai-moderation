@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>ie.ai.base</groupId>
+	<artifactId>ai-moderation</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>ai-moderation</name>
+	<description>A base project for ai moderation hackaton</description>
+
+	<properties>
+		<java.version>17</java.version>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+		<!-- Versions -->
+		<springboot.starter.web.version>3.0.6</springboot.starter.web.version>
+		<springboot.starter.datajpa.version>3.0.6</springboot.starter.datajpa.version>
+		<sprint.data.jpa.version>3.0.5</sprint.data.jpa.version>
+
+		<postgres.version>42.5.4</postgres.version>
+		<jakarta.servlet.version>6.0.0</jakarta.servlet.version>
+		<javaxmlbind.version>2.3.1</javaxmlbind.version>
+	</properties>
+
+	<modules>
+		<module>ai-moderation-api</module>
+	</modules>
+
+</project>
